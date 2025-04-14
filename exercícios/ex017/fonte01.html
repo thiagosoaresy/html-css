@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial,Arial, Helvetica, sans-serif;
+            /* Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            
+            /* lighter normal bold bolder */
+
+        }
+
+        h1{
+            /* shorthand font
+
+            - font-style -> font-weight -> font-size -> font-family  
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder ;
+            font-size: 3em;
+            font-style: italic;
+            */
+
+            font: italic bolder 3em 'Work Sans', sans-serif
+        }
+
+        h2{
+            font: italic 2em 'Work Sans ';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nostrum dolorem voluptas dolorum beatae, odio, corrupti aut suscipit id dicta mollitia autem consequuntur voluptates molestias iure, commodi eaque. Laboriosam, ipsum! Lorem ipsum dolor sit amet consectetur adipisicing elit. A, perferendis. Ullam magni voluptatem asperiores dolor, est doloribus excepturi provident recusandae earum corrupti reprehenderit ipsa. Necessitatibus suscipit sed debitis optio eveniet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos qui neque magnam iure incidunt dignissimos sequi ullam quas laudantium. Iusto, laboriosam sit nam dolorem esse doloribus illum amet nemo adipisci.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, delectus! Reprehenderit veritatis consectetur vero eos modi magni, maxime qui vitae voluptatum, reiciendis veniam dolor suscipit inventore debitis! Expedita, voluptatum accusamus.</p>
+    <h2>Subtítulo com fontes</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat voluptatem quos nam unde nobis sapiente ipsa, error nisi laborum. Reiciendis dicta voluptas ipsum reprehenderit molestias voluptatum beatae, laborum fugiat! Veritatis!</p>
+</body>
+</html>
